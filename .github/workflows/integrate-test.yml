@@ -23,7 +23,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: "*"
-    types: [opened, synchronize, reopened]  # 明确指定 PR 事件类型
+    types: [opened, synchronize, reopened]   
 
 permissions:
   contents: read
